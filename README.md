@@ -18,3 +18,5 @@ The **isIpAllowed** method retrieves the client's IP address from the **$_SERVER
 $maintenanceMode = new MaintenanceMode(true, ['192.168.0.1', '127.0.0.1'], 'Our site is undergoing maintenance. Please check back soon.');
 $maintenanceMode->check();
 ```
+
+In this example, maintenance mode is enabled and access is granted only for IP addresses **192.168.0.1** and **127.0.0.1**. All other clients will receive a **503 Service Unavailable** HTTP response with the specified message.
