@@ -1,6 +1,6 @@
 # Maintenance Mode
 
-### This class has three main components:
+This class has three main components:
 
 **$status** is a boolean variable indicating whether maintenance mode is enabled or not.
 <br>
@@ -19,3 +19,13 @@ $maintenanceMode->check();
 ```
 
 In this example, maintenance mode is enabled and access is granted only for IP addresses **192.168.0.1** and **127.0.0.1**. All other clients will receive a **503 Service Unavailable** HTTP response with the specified message.
+
+### Authors
+
+**Ramazan Çetinkaya**
+
+- [github/ramazancetinkaya](https://github.com/ramazancetinkaya)
+
+### License
+
+Copyright © 2023, [Ramazan Çetinkaya](https://github.com/ramazancetinkaya).
