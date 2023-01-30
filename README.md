@@ -1,5 +1,4 @@
-# PHP-MaintenanceMode
-Creating maintenance mode class using PHP
+Maintenance Mode
 
 ### This class has three main components:
 
@@ -13,7 +12,7 @@ The **check** method first checks if maintenance mode is enabled. If it is, it t
 
 The **isIpAllowed** method retrieves the client's IP address from the **$_SERVER['REMOTE_ADDR']** variable and checks if it is in the **$allowedIps** array. If it is, the method returns **true**, otherwise it returns **false**.
 
-## Example usage of the class:
+## Here's an example of how you might use this class:
 ```php
 $maintenanceMode = new MaintenanceMode(true, ['192.168.0.1', '127.0.0.1'], 'Our site is undergoing maintenance. Please check back soon.');
 $maintenanceMode->check();
