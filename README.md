@@ -1,4 +1,4 @@
-Maintenance Mode
+# Maintenance Mode
 
 ### This class has three main components:
 
